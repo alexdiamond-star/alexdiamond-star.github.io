@@ -1,29 +1,218 @@
 /*-- scss:defaults --*/
 
-/* Quarto and Bootstrap Variables */
-// https://quarto.org/docs/output-formats/html-themes.html#sass-variables
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap');
 
-$body-bg: white; 
-$body-color: #333333;
-$primary: #333333;
+/* Color palette */
+$body-bg: #FFFFFF;
+$body-color: #1f2937;
+$primary: #1B3A6B;
+$link-color: #1B3A6B;
+$headings-color: #111827;
+$navbar-bg: #FFFFFF;
+$navbar-fg: #1f2937;
+$footer-bg: #FAFAFA;
 
-// Common variables to add a bit more color: $link-color, $headings-color, $navbar-bg
-$navbar-bg: #eeeeee;
+/* Typography */
+$font-family-sans-serif: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+$headings-font-weight: 600;
+$font-size-base: 1.0rem;
+$line-height-base: 1.75;
 
-// Code background a bit closer to text color
+/* Code */
 $code-color: $body-color;
-$code-block-bg:  theme-fade($body-bg, $body-color, 5%);
-$code-bg: $code-block-bg;
+$code-block-bg: #f8fafc;
+$code-bg: #f1f5f9;
 
 /*-- scss:rules --*/
 
-
-// Put CSS rules down here
-.nav-link.active {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+/* ── Navbar ── */
+.navbar {
+  border-bottom: 1px solid #e5e7eb;
+  box-shadow: none;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
 }
 
-.code-with-filename .code-with-filename-file {
-    background-color: theme-fade($body-bg, $body-color, 10%);
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.1rem;
+  letter-spacing: -0.01em;
+  color: $primary !important;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  color: #374151 !important;
+
+  &.active {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    font-weight: 600;
+    color: $primary !important;
   }
+
+  &:hover {
+    color: $primary !important;
+  }
+}
+
+/* ── About page (trestles template) ── */
+.quarto-about-trestles {
+  .about-entity {
+    padding-right: 3rem;
+
+    img {
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  .about-links {
+    margin-top: 1.25rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+.about-link {
+  border: 1.5px solid #d1d5db !important;
+  border-radius: 8px !important;
+  padding: 5px 14px !important;
+  font-size: 0.85rem !important;
+  font-weight: 500 !important;
+  color: #374151 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 6px !important;
+
+  &:hover {
+    background-color: #f3f4f6 !important;
+    border-color: $primary !important;
+    color: $primary !important;
+    text-decoration: none !important;
+  }
+}
+
+/* ── Headings ── */
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: $headings-color;
+}
+
+h2 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: $primary;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid $primary;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: $headings-color;
+  margin-top: 0;
+  margin-bottom: 0.25rem;
+}
+
+/* ── Links ── */
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+}
+
+/* ── HR dividers ── */
+hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2rem 0;
+}
+
+/* ── Projects page ── */
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.project-card {
+  background: #FAFAFA;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem 1.75rem;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover {
+    box-shadow: 0 4px 16px rgba(27, 58, 107, 0.08);
+    border-color: #c3cfe0;
+  }
+
+  h3 {
+    color: $primary;
+    margin-bottom: 0.2rem;
+  }
+
+  p {
+    margin-bottom: 0.75rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  code {
+    background: #e0e7f0;
+    color: $primary;
+    padding: 1px 6px;
+    border-radius: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+  }
+
+  em {
+    font-size: 0.85rem;
+    color: #6b7280;
+  }
+
+  strong {
+    color: #374151;
+  }
+}
+
+/* ── Footer ── */
+.nav-footer {
+  border-top: 1px solid #e5e7eb;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  padding: 1rem 0;
+}
+
+/* ── Page body ── */
+.page-columns .column-body {
+  max-width: 740px;
+}
+
+/* ── Strong / bold in body ── */
+strong {
+  font-weight: 600;
+  color: #111827;
+}

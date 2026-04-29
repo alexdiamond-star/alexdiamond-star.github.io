@@ -3,19 +3,26 @@ project:
   output-dir: docs
 
 website:
-  title: "Alex Diamond"
+  title: "Alexander Diamond"
   search: false
   open-graph: true
-  page-footer: "Made with ❤️ and Quarto"
+  page-footer:
+    center: "© 2025 Alexander Diamond · Built with [Quarto](https://quarto.org)"
   navbar:
-    right:
+    left:
       - text: Home
         href: index.qmd
+      - text: Projects
+        href: projects.qmd
     tools:
       - icon: github
         text: GitHub
         href: https://github.com/alexdiamond-star
+      - icon: linkedin
+        text: LinkedIn
+        href: https://www.linkedin.com/in/alexdiamond
 
 format:
   html:
     theme: [cosmo, styles.scss]
+    page-layout: full

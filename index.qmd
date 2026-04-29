@@ -1,26 +1,47 @@
 ---
 title: "Alex Diamond"
-subtitle: "Personal Site"
-# `profile.jpg` photo by Jan Tinneberg on https://unsplash.com
+subtitle: "History · Economics · Data"
 image: profile.jpeg
-image-alt: "Photo of a door partially open revealing a green landscape"
-about: # https://quarto.org/docs/websites/website-about.html
-  template: jolla
+image-alt: "Alex Diamond"
+about:
+  template: trestles
   links:
     - icon: github
-      text: Github
-      href: https://github.com
+      text: GitHub
+      href: https://github.com/alexdiamond-star
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/alexdiamond
+    - icon: envelope
+      text: Email
+      href: mailto:alexdiamond@reed.edu
 ---
 
-A little bit about me and my life. 
+I'm a junior at [Reed College](https://www.reed.edu) studying Economics and History. This summer I'm joining [Berkeley Research Group](https://www.thinkbrg.com/) as a Summer Associate in their Economics, Disputes, and Investigations practice. My research sits at the intersection of quantitative methods and historical inquiry — I'm drawn to questions about how conflict, geography, and institutions shape long-run economic outcomes.
 
-## Education
+At Reed, I work as a Research Assistant in the Economics Department with Dr. Felipe Carrera, where we're working toward a published paper on the long-run economic effects of the Shining Path insurgency in Peru. The project involves constructing and standardizing multi-decade datasets from Spanish-language archival sources, GIS mapping of conflict-affected areas, and applying econometric methods to understand how prolonged political violence shaped regional development. I also work as a writing and academic skills tutor, which keeps me honest about communicating ideas clearly.
 
-University of XYZ, City \| Location \| Sept 20XX - June 20XX
+---
 
-## Experience
+## Research
 
-Workplace \| Job title \| April 20XX - present
+**Long-Run Economic Effects of the Shining Path Insurgency in Peru**  
+*Research Assistant · Reed College Economics Dept., with Dr. Felipe Carrera*
+
+Ongoing work toward publication examining how the *Sendero Luminoso* (PCP-SL) conflict shaped economic trajectories across Peruvian districts. The project spans dataset construction from TRC and INEI archival sources, spatial analysis in QGIS, and regression methods assessing disparities in development outcomes.
+
+---
+
+## Projects
+
+**[Shining Path Dashboard (PCP-SL)](https://kaishinlin.shinyapps.io/PCP-SL/)**  
+*R Shiny · Collaborative with Kaishin Lin and Dr. Felipe Carrera*
+
+An interactive dashboard for exploratory spatial and statistical analysis of conflict exposure and socioeconomic conditions across Peru. Built to support the research project, it includes choropleth maps at district, provincial, and departmental levels; distribution visualizations; side-by-side district comparisons; and a curated literature list on the Peruvian internal armed conflict and its legacies.
+
+---
+
+## Tools & Methods
+
+**Quantitative:** R · Python · Stata · QGIS · RMarkdown  
+**Languages:** English · Spanish

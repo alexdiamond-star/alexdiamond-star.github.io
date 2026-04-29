@@ -2,22 +2,43 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Alex Diamond",
+    "title": "Alexander Diamond",
     "section": "",
-    "text": "A little bit about me and my life."
+    "text": "I’m a junior at Reed College in Portland, OR, studying History with an Economics minor. My work sits at the intersection of quantitative analysis and historical inquiry, using data to understand how economies and societies change over time.\nRight now I’m working as an Economics Research Fellow with Dr. Felipe Carrera, studying the long-run development effects of the Sendero Luminoso insurgency in Peru. I build datasets from archival census records and apply econometric methods to examine how decades of conflict shaped housing and infrastructure outcomes across Andean districts.\nI also build soccer analytics tools in Python and R, and have a growing interest in GIS and spatial analysis."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
-    "title": "Alex Diamond",
+    "title": "Alexander Diamond",
     "section": "Education",
-    "text": "Education\nUniversity of XYZ, City | Location | Sept 20XX - June 20XX"
+    "text": "Education\nReed College | Portland, OR B.A. History (Major), Economics (Minor) | Class of 2027 GPA: 3.7 / 4.0 Commendation for Excellence in Scholarship — 2023–2024 & 2024–2025\nRelevant coursework: Statistics & Probability, Statistical Learning, Economic Analysis, Economic History, Econometrics (in progress), Financial Accounting (NYU)"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
-    "title": "Alex Diamond",
+    "title": "Alexander Diamond",
     "section": "Experience",
-    "text": "Experience\nWorkplace | Job title | April 20XX - present"
+    "text": "Experience\nEconomics Research Fellow | Reed College Economics Dept. | May 2025 – Present Selected for a competitive fellowship under Dr. Felipe Carrera to study the economic impact of the Peruvian civil conflict; standardizing multi-year census datasets (1981–2017) and applying quantitative methods to assess regional development disparities.\nArt Registrar | Estate of Maurice Sievan, Bridgehampton, NY | June – Aug 2024 Curated and documented a large private art collection; maintained provenance, condition reports, and acquisition records in ArtSystems.\nJudicial Intern | DC Superior Court, Hon. Judge Brandt | Feb – Mar 2023 Drafted case summaries, corresponded with incarcerated individuals on the Judge’s behalf, and participated in sentencing discussions.\nFront of House Staff | Baron’s Cove, Sag Harbor, NY | July – Aug 2023"
+  },
+  {
+    "objectID": "index.html#leadership-activities",
+    "href": "index.html#leadership-activities",
+    "title": "Alexander Diamond",
+    "section": "Leadership & Activities",
+    "text": "Leadership & Activities\nLeading Member · Reed Finance & Investment Club — stock pitches, market research, peer collaboration Co-Founder · Reed Debate — secured funding, managed communications, coordinated tournament logistics Writing & Hum 110 Tutor · Reed Office of Academic Support — up to 16 hrs/week of individual and group sessions Staff Writer · Reed College Quest — campus reporting, including breaking news on student protests"
+  },
+  {
+    "objectID": "index.html#skills-interests",
+    "href": "index.html#skills-interests",
+    "title": "Alexander Diamond",
+    "section": "Skills & Interests",
+    "text": "Skills & Interests\nLanguages: English (Native) · Spanish (Proficient) Technical: R · Python · Stata · QGIS · RMarkdown · ArtSystems Interests: Billiards · Brazilian Jiu Jitsu · European Soccer · Golf · Exploring New Restaurants"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Peru Conflict & Development Research\nEconomics Research Fellow — Dr. Felipe Carrera, Reed College R Stata QGIS RMarkdown\nStudying the long-run development effects of the Sendero Luminoso insurgency (1980–2001) on housing and infrastructure outcomes in Andean Peru. The project links TRC conflict-death records to 1981 census data, ENAHO household surveys (1997–2018), and geographic controls to build a district-level panel dataset and an individual-level exposure study.\nKey variables include years of conflict exposure, terrain ruggedness index (Riley et al. 1999), historical hacienda land tenure from Albertus (2020), and Dell’s (2010) Potosí mita zone. Specifications include OLS and panel regressions with department fixed effects across 379 districts.\nOngoing — targeting submission to the Reed Economics Senior Thesis workshop\n\n\nSoccer Analytics Platform\nPersonal Project Python Jupyter FBRef Wyscout\nBuilt a Python-based scouting card generator that scrapes per-90 statistics for all players across Europe’s top five leagues from FBRef, normalizes performance metrics by position, and outputs radar chart reports for individual players. Also includes automated CSV downloaders for top-league and second-division data and Wyscout-style distribution charts for positional benchmarking.\nTools built for personal use and shared informally; reports signed “Alex Diamond”\n\n\nGIS & Spatial Analysis\nIndependent & Research Work QGIS R (sf, elevatr, rnaturalearth)\nProduced spatial datasets and maps for the Peru conflict project and for coursework, including GADM district boundary overlays, Peru road network shapefiles, elevation DEMs from NASA SRTM, terrain ruggedness calculations, and population density visualizations. Also built road and district-level shapefiles in QGIS for exploratory mapping.\n\n\nR Shiny Applications\nGroup & Course Projects R Shiny RMarkdown\nDeveloped interactive data applications in R Shiny for course and group projects, including dynamic filtering, summary statistics, and visualizations of Latin American economic data. Also built supplementary Rmd notebooks for static analysis and table generation."
   }
 ]

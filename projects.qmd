@@ -1,0 +1,50 @@
+---
+title: "Projects"
+page-layout: article
+---
+
+:::{.project-grid}
+
+:::{.project-card}
+### Peru Conflict & Development Research
+
+**Economics Research Fellow — Dr. Felipe Carrera, Reed College**
+`R` `Stata` `QGIS` `RMarkdown`
+
+Studying the long-run development effects of the Sendero Luminoso insurgency (1980–2001) on housing and infrastructure outcomes in Andean Peru. The project links TRC conflict-death records to 1981 census data, ENAHO household surveys (1997–2018), and geographic controls to build a district-level panel dataset and an individual-level exposure study.
+
+Key variables include years of conflict exposure, terrain ruggedness index (Riley et al. 1999), historical hacienda land tenure from Albertus (2020), and Dell's (2010) Potosí mita zone. Specifications include OLS and panel regressions with department fixed effects across 379 districts.
+
+*Ongoing — targeting submission to the Reed Economics Senior Thesis workshop*
+:::
+
+:::{.project-card}
+### Soccer Analytics Platform
+
+**Personal Project**
+`Python` `Jupyter` `FBRef` `Wyscout`
+
+Built a Python-based scouting card generator that scrapes per-90 statistics for all players across Europe's top five leagues from FBRef, normalizes performance metrics by position, and outputs radar chart reports for individual players. Also includes automated CSV downloaders for top-league and second-division data and Wyscout-style distribution charts for positional benchmarking.
+
+*Tools built for personal use and shared informally; reports signed "Alex Diamond"*
+:::
+
+:::{.project-card}
+### GIS & Spatial Analysis
+
+**Independent & Research Work**
+`QGIS` `R (sf, elevatr, rnaturalearth)`
+
+Produced spatial datasets and maps for the Peru conflict project and for coursework, including GADM district boundary overlays, Peru road network shapefiles, elevation DEMs from NASA SRTM, terrain ruggedness calculations, and population density visualizations. Also built road and district-level shapefiles in QGIS for exploratory mapping.
+:::
+
+:::{.project-card}
+### R Shiny Applications
+
+**Group & Course Projects**
+`R` `Shiny` `RMarkdown`
+
+Developed interactive data applications in R Shiny for course and group projects, including dynamic filtering, summary statistics, and visualizations of Latin American economic data. Also built supplementary Rmd notebooks for static analysis and table generation.
+:::
+
+:::
