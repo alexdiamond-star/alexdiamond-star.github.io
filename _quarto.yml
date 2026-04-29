@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Alex Diamond"
+  search: false
+  open-graph: true
+  page-footer: "Made with ❤️ and Quarto"
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+    tools:
+      - icon: github
+        text: GitHub
+        href: https://github.com/alexdiamond-star
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
